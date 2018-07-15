@@ -9,7 +9,7 @@ public class MySelectionSort {
 		MyOwnSelectionSort(array);
 	}
 	
-	public static <AnyType extends Comparable <AnyType>> void MyOwnSelectionSort (int [] array) {
+	public static void MyOwnSelectionSort (int [] array) {
 		int currentSmallest;
 		int currentSmallestIndex = 0;
 		
